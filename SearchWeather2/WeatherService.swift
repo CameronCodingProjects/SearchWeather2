@@ -17,7 +17,7 @@ class WeatherService {
         
         
 
-        let weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=8b1bc347e50bd2f0470da29df6faa148&units=metric"
+        let weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=\(city)&appid={API_KEY}&units=metric"
            
            guard  let url = URL(string: weatherURL) else {return}
 
